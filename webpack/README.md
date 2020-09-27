@@ -6,7 +6,7 @@ npm install
 ```
 2. 打包构建
 ```bash
-npm rn build
+npm run build
 ```
 3. 运行项目
 ```bash
