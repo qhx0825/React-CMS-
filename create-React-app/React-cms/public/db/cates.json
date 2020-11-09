@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "data": [
+    { "id": 1, "cate": "a", "cate_zh": "手机数码1" },
+    { "id": 2, "cate": "b", "cate_zh": "手机数码2" },
+    { "id": 3, "cate": "c", "cate_zh": "手机数码3" }
+  ]
+}

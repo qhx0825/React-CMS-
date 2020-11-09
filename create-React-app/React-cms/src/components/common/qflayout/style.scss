@@ -1,0 +1,44 @@
+.qf-layout {
+  height: 100%;
+}
+.ant-layout-has-sider {
+  height: 100%;
+  position: relative;
+}
+.ant-layout-content {
+  height: 100%;
+  position: relative;
+  background: rgba(247, 248, 250, 1);
+}
+
+.qf-sider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  .logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
+
+.qf-content {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  overflow: auto;
+  // 给主体内容添加最小宽度
+  min-width: 800px;
+  background-color: white;
+  padding: 20px;
+}
